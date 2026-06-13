@@ -24,16 +24,33 @@ export const metadata: Metadata = {
   keywords: ["AI receptionist", "voice AI", "business automation", "CRM automation", "digital employees"],
   authors: [{ name: "The Inner Sparkle" }],
   creator: "The Inner Sparkle",
+  metadataBase: new URL("https://innersparkle-site.vercel.app"),
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   openGraph: {
     type: "website",
     title: "The Inner Sparkle | Premium AI Business Systems",
     description: "Voice AI, CRM automation, and digital employees designed to capture more opportunities and grow your business.",
     siteName: "The Inner Sparkle",
+    images: [
+      {
+        url: "/social-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "The Inner Sparkle premium AI business systems",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Inner Sparkle | Premium AI Business Systems",
     description: "Voice AI, CRM automation, and digital employees designed to capture more opportunities and grow your business.",
+    images: ["/social-image.jpg"],
   },
   robots: {
     index: true,

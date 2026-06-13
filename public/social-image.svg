@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="background" cx="24%" cy="44%" r="92%">
+      <stop offset="0" stop-color="#2b191a"/>
+      <stop offset=".46" stop-color="#110909"/>
+      <stop offset="1" stop-color="#060404"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="35%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#fff5f0"/>
+      <stop offset=".24" stop-color="#f5d6cb"/>
+      <stop offset=".55" stop-color="#e0a996"/>
+      <stop offset="1" stop-color="#704034"/>
+    </radialGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5d6cb"/>
+      <stop offset=".45" stop-color="#e0a996"/>
+      <stop offset="1" stop-color="#9e6250"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="tiles" width="42" height="42" patternUnits="userSpaceOnUse" patternTransform="rotate(12)">
+      <rect width="34" height="34" rx="5" fill="none" stroke="#fff5f0" stroke-opacity=".28" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="285" cy="315" r="230" fill="#e0a996" opacity=".18" filter="url(#glow)"/>
+  <circle cx="285" cy="315" r="184" fill="url(#orb)"/>
+  <circle cx="285" cy="315" r="184" fill="url(#tiles)"/>
+  <ellipse cx="235" cy="247" rx="74" ry="48" fill="#fff" opacity=".24" filter="url(#softGlow)"/>
+  <path d="M285 92c7 53 28 74 81 81-53 7-74 28-81 81-7-53-28-74-81-81 53-7 74-28 81-81Z" fill="#fff5f0" opacity=".9"/>
+  <path d="M1017 92c4 33 17 46 50 50-33 4-46 17-50 50-4-33-17-46-50-50 33-4 46-17 50-50Z" fill="#00f2fe" opacity=".78"/>
+  <path d="M1111 455c3 24 13 34 37 37-24 3-34 13-37 37-3-24-13-34-37-37-3-24-13-34-37-37 24-3 34-13 37-37Z" fill="#f5d6cb" opacity=".7"/>
+  <circle cx="516" cy="108" r="5" fill="#00f2fe"/>
+  <circle cx="474" cy="515" r="4" fill="#f5d6cb"/>
+  <circle cx="1060" cy="276" r="4" fill="#e0a996"/>
+  <text x="540" y="230" fill="url(#rose)" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700">The Inner Sparkle</text>
+  <text x="544" y="294" fill="#f5d6cb" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">PREMIUM AI BUSINESS SYSTEMS</text>
+  <rect x="544" y="332" width="430" height="2" fill="url(#rose)" opacity=".65"/>
+  <text x="544" y="392" fill="#d7aaa0" font-family="Arial, Helvetica, sans-serif" font-size="28">Voice AI. CRM automation.</text>
+  <text x="544" y="434" fill="#d7aaa0" font-family="Arial, Helvetica, sans-serif" font-size="28">Digital employees that never miss.</text>
+  <rect x="544" y="480" width="238" height="54" rx="27" fill="#00f2fe" fill-opacity=".12" stroke="#00f2fe" stroke-opacity=".48"/>
+  <text x="663" y="514" text-anchor="middle" fill="#00f2fe" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1">CAPTURE EVERY LEAD</text>
+</svg>
